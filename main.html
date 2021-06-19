@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahid's Gift</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <audio id="cuppy"  autoplay loop src="baby-cute-voiceo.mp3"></audio>
+</head>
+<body style="padding: 0; margin: 0; " >
+    <section>
+    <div  class="container">
+        
+        <div class="row">
+            <div id="overlay">
+                
+            </div>
+            <img  class="cake" src="tenor.gif" alt="">
+            
+        </div> 
+        <div class="text">
+            
+            <h1>Helloo Meesakkari...</h1><br>
+            
+           
+             <br>
+
+            <h4>Kriskuu..I Made This Website To Wish You On Your Birthday.. <br>But U Know What To Expect From Me..Some Bloody Boring Old Man Style Advice Like Things and some wierdnes..,Right? <br>
+             
+                <img style="width:40%;" src="Me-Krish-NoBg.png" alt=""> <h6>This little Pic Is A Weired One..But I Didn't Get Anything Other Than This Which Contained Only Us.</h6>  <br>
+                The way I see it, you should live everyday like it’s your birthday. <br>            — Paris Hilton <br><br>
+                Remember that researchers have said that people who have more birthdays live longer. May you get more birthdays. <br>
+                I Wish That The Almighty Blesses You With Good Luck, Happiness, Love, More Beauty Good Health And Success In Every Walk Of Your Life. <br> <br>
+                Well You Have Got Another 1 Year To Live In This World. Viewing From An Another Perspective,
+           25 Years Has Been Reduced From Your Life..You Have Made A Lot Of Experience Through All These Years..
+        You Have Met A Lot Of People, Lost A Lot Of Them, Loved Some Of em', Left Some Of em',  Cheated Some Of em', Got Cheated By Some of em'.
+        You Have Had Wonderful Experiences As Well As Terrible Ones.. <br> Yet Here You Are...Celebrating Your 25th Birthday.
+            </h4> <br>
+            <video controls src="k-b'day.mp4" style="width:90% ; height: 17rem; " ></video>
+            <br>
+            <br>
+            <h4>I Know, On Reading The Contents Below You will Get Into A Special Mental condition And Ask Yourself Who The Hell Is This Kid To Tell Me These Things Like You Have Done Before </h4>
+            <h4><span style="font-size: larger;"> Krishumolee...</span>You Have Some Dreams, Visions and Goals...Hoping Someday You Can Achieve.. <br>
+            Your Thought Goes Like This: <br> "Nobody Support Me On Accomplishing Some Of My Interests..I Don't HAve A Stable Income. So I Will Acheive Those Dreams With The Help Of My Husband.." <br>
+            But The Thing Is That...If You Haven't Took Any Steps To Acheive Your Drems( Care For Children,or Many Things You HAve Told Me And Things You Haven't Mentioned... )
+            You Were Wasting Some Time Only Telling Yourself I Am The Kind Of Girl Who Tries To Chase Everything I Want..(U Have Told Me That Once,On Behalf Of Some Examples From U R Childhood )You Get Into The Real World After Graduating From The College And Realizes It Is Different From What You Have Thought And Told.
+             The Time To Start Has Already Passed..So, Start As Soon As Possible..
+             <br>
+              The World Is Changing Fast...Time Is Flowing Fast.. <br> Nevertheless Krishuu..Neveretheless You Are Sitting On Your Bed, Making Your Butt Comfortable, Hoping You Will Do Everything Some Day..First, You Expect To Change After Graduating, Then You Expect To Change After Marriage, Then You Expect To Change After The Celebrations Related To Marriage, Then You Expect To Change After Getting A Job, Kids, More Salary..The List Goes On..</h4>
+           <h3>In This Modern World, What A Women As Well As A Man First Needs Is Financial Independency..That Doesn't Mean Just Getting A Job(well, U Need A Job First Though). You Had A Bloody Job But You Didn't Do Anything For Being Financially Independent.You Just Saved The Money And Didn't Make A Single Investment While You Had A Regular Income..
+               If You Don't Push Yourself, The World Will Push You Around In It's Own Fucking Way Like It Does To Most People.. Don't Get Trapped In The Rat Race..Start Actions To Get Out Of It
+              To Acheive Your Dreams, You Need Money..Go And Get The Real Money Instead Of Only Making The Fake Ones For Your Entire Life Time.. 
+            <br>
+            Some People Say I Don't Need It...Yet They Are The Same Kind Who Works Hard 8Hrs A Day To Make The Same...So Don't Say those Creepy Words.. 
+            </h3>
+            <h4 style="margin-top: 5em;" >
+               
+                It Is Horrible That I Wrote All These Things In A Website I Made To Wish You On Your Birthday..I Know You Didn't Read All Of It.
+            </h4><br>
+            <h3>I Don't Have Words To Express My Feelings..Understand It From My Eyes..</h3><br>
+            <button id="btn" onclick="displayEyes()" class="btn">Click/Tap To See My Eyes</button>
+            <div id="showScroll" style="float: left;" class="tex"><h4>Scroll Down</h4></div> 
+             <div style="width: 100%;height:3em" class="space"></div>
+
+        
+         
+        </div>
+        <div id="eyesDiv" style="float: left;" class="text">
+            <img class="eyes" src="eyes.jpg" alt="">
+            
+        </div> 
+    </div>
+    <div class="footer" ><h4>made by ShahidRawther </h4>
+         <a href="https://www.instagram.com/_rawther___shahid/"><i class="fab fa-instagram">Instagram</i></a>
+      <p>  contact me: shahid04m@gmail.com <br>
+        want A Professional Website? <br>
+        Just Write To Me. prostack21@gmail.com <br> </p>
+        <a  href="https://www.prostack.ga"> <button class="pro" >Click To See My Company Website- ProStack Web Developers</button></a>
+    </div>
+</section>
+
+<script>
+var aud = document.getElementById("cuppy");
+aud.volume = 0.3;
+
+</script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script>
+
+
+    $(document).ready(function () {
+        var eyesDiv= document.getElementById("eyesDiv")
+       eyesDiv.style.display="none"
+       $("#btn").click(function(){
+           $("#eyesDiv").fadeToggle();
+       });
+       var showScroll= document.getElementById("showScroll")
+       showScroll.style.display="none"
+       $("#btn").click(function(){
+           $("#showScroll").fadeToggle();
+       });
+    });
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+      
+      <div class="card" data-tilt data-tilt-scale="0.95" data-tilt-startY="40">
+        <div class="welcome" style="padding-left: 20%;padding-top: 20%; " >
+          To Enter The Main Page, 
+        </div>
+        <div class="year" style="padding-left: 20%;" >
+          <span>You Have To Enter</span>
+          <span>A Spcial</span><br>
+          <span style="margin-left: 25%;" >Name</span>
+        </div>  
+        <input style="margin-left: 25%; margin-top: 10%; border-radius: 2em; height: 2em;min-width: 10%;  " type="text" name="logsarchives" id="logsarchives" autocomplete="off"  placeholder="Enter the Word(small case) " onkeydown="redirect(this)">
+      </div>
+
+
+</body>
+<script>
+    function redirect(ele) {
+        if(event.key === 'Enter') {
+            if(ele.value === 'krishu')
+                 window.location.href = 'main.html';
+            else if (ele.value === 'unni') {
+                 alert('Podaa Maakri..Phone Kochinte Kayyil Koduk..')
+            }else{
+              alert('Invalid Name. Enter The Special Name(which Krishnenthu Rugmini knows) To Access The Main Content; Make Sure All The Letters Are In Small Case.')
+            }
+            }
+    }
+
+</script>
+</html>
