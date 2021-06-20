@@ -28,7 +28,7 @@
 
             <h4>Kriskuu..I Made This Website To Wish You On Your Birthday.. <br>But U Know What To Expect From Me..Some Bloody Boring Old Man Style Advice Like Things and some wierdnes..,Right? <br>
              
-                <img style="width:40%;" src="Me-Krish-NoBg.png" alt=""> <h6>This little Pic Is A Weired One..But I Didn't Get Anything Other Than This Which Contained Only Us.</h6>  <br>
+                <img id="img" style="width:40%;" src="Me-Krish-NoBg.png" alt=""> <h6>This little Pic Is A Weired One..But I Didn't Get Anything Other Than This Which Contained Only Us.</h6>  <br>
                 The way I see it, you should live everyday like it’s your birthday. <br>            — Paris Hilton <br><br>
                 Remember that researchers have said that people who have more birthdays live longer. May you get more birthdays. <br>
                 I Wish That The Almighty Blesses You With Good Luck, Happiness, Love, More Beauty Good Health And Success In Every Walk Of Your Life. <br> <br>
@@ -80,11 +80,7 @@
     </div>
 </section>
 
-<script>
-var aud = document.getElementById("cuppy");
-aud.volume = 0.35;
 
-</script>
 
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script>
@@ -100,6 +96,11 @@ aud.volume = 0.35;
        showScroll.style.display="none"
        $("#btn").click(function(){
            $("#showScroll").fadeToggle();
+       });
+               $('#img').click(function(){
+       
+           $('#cuppy').append(' <audio id="cuppy"  autoplay loop src="baby-cute-voiceo.mp3"></audio>')
+           
        });
     });
 
